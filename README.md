@@ -9,7 +9,7 @@ It can be readily downloaded and executed in a pyhton console (**python 3**) pro
 
 To have a quick look on the performances of SPOOC run the `example()` function in `spocc_main.py` The default parameter values allows to obtain a quick comparison between SPOOC and reference methods (classifier selection, weighted vote aggregation, stacking, exponential weights, naive Bayes and Bayes aggregation or centralized learning) on simple synthetic datasets. To achieve a prescribed confidence level in the returned accuracies the parameter `iter_max` must be set to `np.inf` but the execution will be significantly longer.
 
-**Warning**: please use the following (or more recent) module versions: `numpy` 1.14.0, `matplotlib` 0.98.0, `sklearn` 0.18.1
+**Warning**: the code is compatible with these module versions: `numpy` 1.17.2, `matplotlib` 3.1.1, `sklearn` 0.22.1, `scipy` 1.4.1
 
 
 Licence
